@@ -20,8 +20,12 @@ input.onButtonPressed(Button.A, function () {
   basic.clearScreen()
   loopCounter = 0
   sprite = game.createSprite(0, 0)
+
+  // loop
   while (loopCounter <= 5) {
     basic.pause(500)
+
+    // LED moves diagonally
     sprite.set(LedSpriteProperty.X, loopCounter)
     sprite.set(LedSpriteProperty.Y, loopCounter)
     loopCounter++
@@ -32,11 +36,17 @@ input.onButtonPressed(Button.A, function () {
 
 // press "B" button
 input.onButtonPressed(Button.B, function () {
+
+  // setup
   basic.clearScreen()
   loopCounter = 5
   sprite = game.createSprite(5, 5)
+
+  // loop
   while (loopCounter >= -1) {
     basic.pause(500)
+
+    // LED moves diagonally
     sprite.set(LedSpriteProperty.X, loopCounter)
     sprite.set(LedSpriteProperty.Y, loopCounter)
     loopCounter--
