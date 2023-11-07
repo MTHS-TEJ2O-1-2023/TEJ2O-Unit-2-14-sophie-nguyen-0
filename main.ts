@@ -52,7 +52,7 @@ input.onButtonPressed(Button.B, function () {
     sprite.set(LedSpriteProperty.Y, loopCounter)
     loopCounter--
   }
-  
+
   sprite.delete()
   basic.showIcon(IconNames.Rabbit)
 })
