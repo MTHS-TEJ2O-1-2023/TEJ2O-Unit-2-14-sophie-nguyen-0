@@ -14,7 +14,7 @@ basic.showIcon(IconNames.Heart)
 basic.pause(500)
 basic.clearScreen()
 
-// p seress "A" button
+// press "A" button
 input.onButtonPressed(Button.A, function () {
   // setup
   basic.clearScreen()
