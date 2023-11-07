@@ -37,7 +37,6 @@ input.onButtonPressed(Button.A, function () {
 
 // press "B" button
 input.onButtonPressed(Button.B, function () {
-
   // setup
   basic.clearScreen()
   loopCounter = 5
