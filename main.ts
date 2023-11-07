@@ -24,7 +24,7 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(500)
     sprite.set(LedSpriteProperty.X, loopCounter)
     sprite.set(LedSpriteProperty.Y, loopCounter)
-    loopCounter ++
+    loopCounter++
   }
   sprite.delete()
   basic.showIcon(IconNames.Rabbit)
@@ -39,7 +39,7 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(500)
     sprite.set(LedSpriteProperty.X, loopCounter)
     sprite.set(LedSpriteProperty.Y, loopCounter)
-    loopCounter --
+    loopCounter--
   }
   sprite.delete()
   basic.showIcon(IconNames.Rabbit)
