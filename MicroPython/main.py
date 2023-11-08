@@ -23,7 +23,7 @@ while True:
         loop_counter = 0
 
         # loop
-        while loop_counter <= 5:
+        while loop_counter < 5:
             sleep(500)
 
             display.set_pixel(loop_counter, loop_counter, 9)
@@ -36,10 +36,10 @@ while True:
     if button_b.is_pressed():
         # setup
         display.clear()
-        loop_counter = 5
+        loop_counter = 4
 
         # loop
-        while loop_counter <= 5:
+        while loop_counter > -1:
             sleep(500)
 
             display.set_pixel(loop_counter, loop_counter, 9)
