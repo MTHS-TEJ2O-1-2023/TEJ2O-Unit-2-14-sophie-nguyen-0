@@ -27,7 +27,7 @@ while True:
             sleep(500)
 
             display.set_pixel(loop_counter, loop_counter, 9)
-            sleep (500)
+            sleep(500)
             display.clear()
 
             # loop_counter goes up by 1
@@ -47,7 +47,6 @@ while True:
             display.set_pixel(loop_counter, loop_counter, 9)
             sleep (500)
             display.clear()
-
 
             # loop_counter goes down by 1
             loop_counter -= 1
